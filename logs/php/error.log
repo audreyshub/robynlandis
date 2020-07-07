@@ -1,0 +1,31 @@
+[16-Jun-2020 21:48:49 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/media.php on line 3166
+[16-Jun-2020 21:48:49 UTC] PHP Stack trace:
+[16-Jun-2020 21:48:49 UTC] PHP   1. {main}() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:0
+[16-Jun-2020 21:48:49 UTC] PHP   2. do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:175
+[16-Jun-2020 21:48:49 UTC] PHP   3. WP_Hook->do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/plugin.php:478
+[16-Jun-2020 21:48:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:311
+[16-Jun-2020 21:48:49 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:287
+[16-Jun-2020 21:48:49 UTC] PHP   6. wp_crop_image() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/class-custom-image-header.php:1313
+[16-Jun-2020 21:48:49 UTC] PHP   7. WP_Image_Editor_GD->crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/image.php:44
+[16-Jun-2020 21:48:49 UTC] PHP   8. wp_imagecreatetruecolor() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-image-editor-gd.php:319
+[16-Jun-2020 21:48:49 UTC] PHP   9. imagecreatetruecolor() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/media.php:3166
+[16-Jun-2020 21:48:49 UTC] PHP Warning:  imageantialias() expects parameter 1 to be resource, bool given in /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-image-editor-gd.php on line 327
+[16-Jun-2020 21:48:49 UTC] PHP Stack trace:
+[16-Jun-2020 21:48:49 UTC] PHP   1. {main}() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:0
+[16-Jun-2020 21:48:49 UTC] PHP   2. do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:175
+[16-Jun-2020 21:48:49 UTC] PHP   3. WP_Hook->do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/plugin.php:478
+[16-Jun-2020 21:48:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:311
+[16-Jun-2020 21:48:49 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:287
+[16-Jun-2020 21:48:49 UTC] PHP   6. wp_crop_image() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/class-custom-image-header.php:1313
+[16-Jun-2020 21:48:49 UTC] PHP   7. WP_Image_Editor_GD->crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/image.php:44
+[16-Jun-2020 21:48:49 UTC] PHP   8. imageantialias() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-image-editor-gd.php:327
+[16-Jun-2020 21:48:49 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, bool given in /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-image-editor-gd.php on line 330
+[16-Jun-2020 21:48:49 UTC] PHP Stack trace:
+[16-Jun-2020 21:48:49 UTC] PHP   1. {main}() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:0
+[16-Jun-2020 21:48:49 UTC] PHP   2. do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/admin-ajax.php:175
+[16-Jun-2020 21:48:49 UTC] PHP   3. WP_Hook->do_action() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/plugin.php:478
+[16-Jun-2020 21:48:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:311
+[16-Jun-2020 21:48:49 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-hook.php:287
+[16-Jun-2020 21:48:49 UTC] PHP   6. wp_crop_image() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/class-custom-image-header.php:1313
+[16-Jun-2020 21:48:49 UTC] PHP   7. WP_Image_Editor_GD->crop() /Users/audreywong/Local Sites/robynlandis/app/public/wp-admin/includes/image.php:44
+[16-Jun-2020 21:48:49 UTC] PHP   8. imagecopyresampled() /Users/audreywong/Local Sites/robynlandis/app/public/wp-includes/class-wp-image-editor-gd.php:330
